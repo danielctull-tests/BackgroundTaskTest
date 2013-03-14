@@ -16,6 +16,8 @@
 		24FEF88A16F1EA2700D8835E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FEF88916F1EA2700D8835E /* Default.png */; };
 		24FEF88C16F1EA2700D8835E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FEF88B16F1EA2700D8835E /* Default@2x.png */; };
 		24FEF88E16F1EA2700D8835E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FEF88D16F1EA2700D8835E /* Default-568h@2x.png */; };
+		24FEF89716F1F09400D8835E /* DCTLoggingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FEF89516F1F09400D8835E /* DCTLoggingViewController.m */; };
+		24FEF89816F1F09400D8835E /* DCTLoggingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24FEF89616F1F09400D8835E /* DCTLoggingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		24FEF88916F1EA2700D8835E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		24FEF88B16F1EA2700D8835E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		24FEF88D16F1EA2700D8835E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		24FEF89416F1F09400D8835E /* DCTLoggingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTLoggingViewController.h; sourceTree = "<group>"; };
+		24FEF89516F1F09400D8835E /* DCTLoggingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTLoggingViewController.m; sourceTree = "<group>"; };
+		24FEF89616F1F09400D8835E /* DCTLoggingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DCTLoggingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,9 @@
 				24FEF88616F1EA2700D8835E /* AppDelegate.h */,
 				24FEF88716F1EA2700D8835E /* AppDelegate.m */,
 				24FEF87E16F1EA2700D8835E /* Supporting Files */,
+				24FEF89416F1F09400D8835E /* DCTLoggingViewController.h */,
+				24FEF89516F1F09400D8835E /* DCTLoggingViewController.m */,
+				24FEF89616F1F09400D8835E /* DCTLoggingViewController.xib */,
 			);
 			path = BackgroundTaskTest;
 			sourceTree = "<group>";
@@ -154,6 +162,7 @@
 				24FEF88A16F1EA2700D8835E /* Default.png in Resources */,
 				24FEF88C16F1EA2700D8835E /* Default@2x.png in Resources */,
 				24FEF88E16F1EA2700D8835E /* Default-568h@2x.png in Resources */,
+				24FEF89816F1F09400D8835E /* DCTLoggingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +175,7 @@
 			files = (
 				24FEF88416F1EA2700D8835E /* main.m in Sources */,
 				24FEF88816F1EA2700D8835E /* AppDelegate.m in Sources */,
+				24FEF89716F1F09400D8835E /* DCTLoggingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
